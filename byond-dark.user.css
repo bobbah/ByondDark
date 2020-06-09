@@ -1,16 +1,16 @@
 /* ==UserStyle==
 @name        ByondDark
 @namespace   bobbahbrown
-@version     1.0.0
+@version     1.0.1
 @homepageURL https://github.com/bobbahbrown/ByondDark
-@updateURL   https://raw.githubusercontent.com/bobbahbrown/ByondDark/blob/master/byond-dark.css
+@updateURL   https://raw.githubusercontent.com/bobbahbrown/ByondDark/blob/master/byond-dark.user.css
 @license     AGPL 3.0
 @author      bobbahbrown
 ==/UserStyle== */
-/*! ByondDark v1.0.0 (2020-06-09) */
+/*! ByondDark v1.0.1 (2020-06-09) */
 /*! Repository: https://github.com/bobbahbrown/ByondDark    */
 /*! License:    https://opensource.org/licenses/AGPL-3.0 */
-@-moz-document domain("www.byond.com") {
+@-moz-document regexp("^https?://.*\\.byond\\.com/docs/ref.*$") {
   body {
     background: #1c1c1c !important;
     color: #afafaf;
