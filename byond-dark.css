@@ -1,0 +1,141 @@
+/* ==UserStyle==
+@name        ByondDark
+@namespace   bobbahbrown
+@version     1.0.0
+@homepageURL https://github.com/bobbahbrown/ByondDark
+@updateURL   https://raw.githubusercontent.com/bobbahbrown/ByondDark/blob/master/byond-dark.css
+@license     AGPL 3.0
+@author      bobbahbrown
+==/UserStyle== */
+/*! ByondDark v1.0.0 (2020-06-09) */
+/*! Repository: https://github.com/bobbahbrown/ByondDark    */
+/*! License:    https://opensource.org/licenses/AGPL-3.0 */
+@-moz-document domain("www.byond.com") {
+  body {
+    background: #1c1c1c !important;
+    color: #afafaf;
+  }
+
+  #contents_top,
+  .button,
+  .menu ul,
+  .button.current,
+  .button:hover,
+  .menu:hover .button {
+    background: #181818;
+  }
+
+  .menu li:hover {
+    background: #181818;
+  }
+
+  .nav li,
+  .nav li:hover {
+    background: #222;
+  }
+
+  .nav li:after,
+  .nav li:hover:after {
+    border-left-color: #222;
+  }
+
+  .nav li:not(:first-child):before,
+  .nav li:not(:first-child):hover:before {
+    border: 1em solid #222;
+    border-left-color: transparent;
+    border-right-width: 0;
+  }
+
+  a {
+    color: #bebebe !important;
+  }
+
+  a:hover {
+    color: rgb(79, 140, 201) !important;
+  }
+
+  pre.dmcode {
+    background: #181818;
+    border: solid 1px #404040;
+    box-shadow: none;
+  }
+
+  h3.dmcode {
+    background: #181818;
+  }
+
+  .note,
+  .sidebar {
+    box-shadow: none;
+  }
+
+  .performance,
+  .tip,
+  .sidebar,
+  .note,
+  .compatibility {
+    background: #182030;
+    border-color: #246;
+  }
+
+  .security {
+    background: #261d08;
+    border-color: #404040;
+  }
+
+  .note.security:before {
+    text-shadow: none;
+  }
+
+  .note.performance:before,
+  .note.compatibility:before {
+    text-shadow: none;
+  }
+
+  .DMk,
+  .DMn {
+    color: #cf6a4c !important;
+  }
+
+  .DMc {
+    color: #5f5a60 !important;
+  }
+
+  .DMs {
+    color: #f9ee98 !important;
+  }
+
+  table.withborder {
+    box-shadow: none;
+    background: #181818;
+    border-color: #404040;
+  }
+
+  .byondver_tag {
+    background: rgba(200, 200, 200, 0.15);
+    color: #afafaf;
+  }
+
+  .search,
+  .search:focus-within {
+    background: #202020;
+  }
+
+  #search_results {
+    background-color: #181818;
+    border-color: #404040;
+  }
+
+  #search_results .result:hover {
+    background-color: #181818;
+    border-color: #404040;
+    color: rgb(79, 140, 201) !important;
+  }
+
+  td#divider,
+  .macro_head,
+  .macro_subhead {
+    background-color: #222;
+    border-color: #404040;
+  }
+}
